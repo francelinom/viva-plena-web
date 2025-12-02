@@ -30,7 +30,7 @@ const LoginPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background-light dark:bg-background-dark transition-colors px-4">
+    <div className="relative min-h-screen flex items-center justify-center bg-background-light dark:bg-background-dark transition-colors px-4">
       <div className="absolute top-4 right-4">
         {/* Toggle de tema */}
         <ThemeToggle />
